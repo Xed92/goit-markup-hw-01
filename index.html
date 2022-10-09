@@ -3,72 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="webstudio" content="web-development">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <title>(WebStudio)Домашнэ завдання №1</title>
 </head>
 <body>
     <!-- верхня лінія -->
-    <header>
-        <nav>
-        <a href="/">
-        <img src="./images/WebStudio.svg" alt="">
-        </a>
-        <ul>
-            <li><a href="">Студія</a></li>
-            <li><a href="">Портфоліо</a></li>
-            <li><a href="">Контакти</a></li>
-        </ul>
-        <ul>
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11</a></li>
-        </ul>
-        </nav>
+    <header >
+        <a href="/"><h2 class="logotype"><span class="logo1">Web</span><span class="logo2">Studio</span> </h2></a>
+            <nav class="header"> 
+                <a class="menu1" href="">Студія</a>
+                <a class="menu2" href="">Портфоліо</a>
+                <a class="menu3" href="">Контакти</a> 
+            </nav>
+                <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="phone" href="tel:+380961111111">+38 096 111 11 11</a>   
         <p>
-            <img src="./images/finger1.svg" alt="finger">
-            <img src="./images/finger1.svg" alt="finger">
+            <img src="/images/finger1.svg" alt="finger">
+            <img src="/images/finger1.svg" alt="finger">
         </p>
+        <div class="line">_______________________________________________________________________________________________________________________________________________________________________________</div>
     </header>
+    
     <!-- шапка -->
-    <div>
+    <div class="cap">
         <section>
-            <img src="./images/eff34a388bbc6409758a002e5a58c3ca.jpg" alt="programer working">
-            <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <a href="">Замовити послугу</a>
+            <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+            <button type="button">Замовити послугу</button>
         </section>            
     </div>
     <!-- особливісті -->
     <main>
+
+        <ul>
         <!-- feature 1 -->
-        <div class="feature1">
+        <li class="feature1">
             <h5>УВАГА ДО ДЕТАЛЕЙ</h5>
             <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p> 
-        </div>
+        </li>
         <!-- feature 2 -->
-        <div class="feature2">
+        <li class="feature2">
             <h5>ПУНКТУАЛЬНІСТЬ</h5>
             <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p> 
-        </div>  
+        </li>  
         <!-- feature 3    -->
-        <div class="feature3">
+        <li class="feature3">
             <h5>ПЛАНУВАННЯ</h5>
             <p>Так само консультація з широким активом значною мірою зумовлює.</p> 
-        </div>
+        </li>
         <!-- feature 4 -->
-        <div class="feature4">    
+        <li class="feature4">    
             <h5>СУЧАСНІ</h5>
             <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p> 
-        </div> 
+        </li> 
+    </ul>
     </main>
     <!-- Чим ми займаємося -->
     <div class="skills">
         <h2 class="skill">Чим ми займаємося</h2>
-        <img class="box1" src="./images/eff34a388bbc6409758a002e5a58c3ca.jpg" alt="programer working">
-        <img class="box2" src="./images/fe209b7db875477ca0f844823574082d.jpg" alt="developing application smartphones">
-        <img class="box3" src="./images/ff490664ba91f138b9f708e01d65306a.jpg" alt="creative artist web design with working">
+        <img class="box1" width="370" height="294" src="./images/eff34a388bbc6409758a002e5a58c3ca.jpg" alt="programer working">
+        <img class="box2" width="370" height="294" src="./images/fe209b7db875477ca0f844823574082d.jpg" alt="developing application smartphones">
+        <img class="box3" width="370" height="294" src="./images/ff490664ba91f138b9f708e01d65306a.jpg" alt="creative artist web design with working">
     </div>
     <!-- Наша команда -->
     <div class="team">
@@ -76,9 +74,9 @@
         <!-- team card 1 -->
         <div class="card1">
             <figure>
-                <img class="photo1" src="./images/01b0562402f9066520924acac0be8dc7.jpg" alt="personal">
+                <img class="photo1" width="270" height="260"  src="/images/persone1.jpg" alt="personal">
                 <figcaption>
-                <h3 class="name1">Ігор Дем'яненко</h3>
+                <h4 class="name1">Ігор Дем'яненко</h4>
                 <p class="position1">Product Designer</p>
                 </figcaption>       
             </figure>
@@ -86,7 +84,7 @@
         <!-- team card 2 -->
         <div>
             <figure>
-                <img class="photo2" src="./images/8ed9ff0c05008e3e7ae5285b05efd211.jpg" alt="personal">
+                <img class="photo2" width="270" height="260"  src="/images/persone2.jpg" alt="personal">
                 <figcaption>
                 <h3 class="name2">Ольга Рєпіна</h3>
                 <p class="position2">Frontend Developer</p>
@@ -96,7 +94,7 @@
         <!-- team card 3 -->
         <div>
             <figure>
-                <img class="photo3" src="./images/c03fb848ed9dfc89543bbe97156c3661.jpg" alt="personal">
+                <img class="photo3" width="270" height="260"  src="/images/persone3.jpg" alt="personal">
                 <figcaption>
                 <h3 class="name3">Микола Тарасов</h3>
                  <p class="position3">Marketing</p>
@@ -107,7 +105,7 @@
         <div>
             <figure>
                 <figcaption>
-                <img class="photo4" src="./images/7ff905b2d5f56aa0d2b29aa48e997cd8.jpg" alt="personal">
+                <img class="photo4" width="270" height="260"  src="/images/persone4.jpg" alt="personal">
                  <h3 class="name4">Михайло Єрмаков</h3>
                 <p class="position4">UI Designer</p>
                 </figcaption>       
@@ -119,7 +117,7 @@
         <h2 class="logo-name"><span class="logo">Web</span>Studio</h2>
         <!-- address -->
         <div>
-            <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+            <address>м. Київ, пр-т Лесі Українки, 26</address>  
             <p class="mail">info@devstudio.com</p>
             <p class="contact">+38 096 111 11 11</p> 
         </div>
